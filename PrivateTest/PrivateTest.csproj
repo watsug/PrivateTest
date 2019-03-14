@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Class1.Tests.cs" />
+    <Compile Include="Class1.Tests.cs">
+		<DependentUpon>Class1.cs</DependentUpon>
+	</Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
